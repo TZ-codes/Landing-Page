@@ -41,7 +41,7 @@
 .headline button {
     background-color: #3882F6;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
     color: #F9FAF8;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .information {
-    background-color: #cbd5e1;
+    background-color: #64748b;
     color: #0f172a;
     height: 275px;
     /* display: flex; */
@@ -107,10 +107,33 @@
 }
 
 .sign-up {
-    background-color: darkorange;
-    height: 300px;
+    background-color: #64748b;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e2e8f0;
+}
+
+.sign-up-container {
+    background-color: #0007;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    color: #F9FAF8;
 }
 
 footer {
-    background-color: yellow;
+    background-color: #0f172a;
+    color:#FFF;
+    text-align: center;
+    padding: 10px;
 }
