@@ -10,6 +10,9 @@
     color: #f8fafc;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
 }
 
 .right-nav-bar ul {
@@ -20,12 +23,16 @@
 }
 
 .headline {
-    background-color: #0f172a;
+    background-image: url("/image/tim-alex-laVHkdkMdlQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #f8fafc;
     display: flex;
     height: 400px;
     justify-content: center;
     padding: 30px;
+    padding-top: 60px;
 }
 
 .headline-content {
