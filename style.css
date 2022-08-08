@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .nav-bar {
-    background-color: green;
+    background-color: #0f172a;
+    color: #f8fafc;
     display: flex;
     justify-content: space-around;
 }
@@ -18,19 +20,95 @@
 }
 
 .headline {
-    background-color: aqua;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.headline-content {
+    background-color: #0007;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.headline button {
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 2px;
+    color: #F9FAF8;
+}
+
+.headline-img img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .information {
-    background-color: brown;
+    background-color: #cbd5e1;
+    color: #0f172a;
+    height: 275px;
+    /* display: flex; */
+}
+
+.information h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.information img {
+    flex-wrap: wrap;
+    border: 4px solid #334155;
+    width: 150px;
+    height:150px;
+    border-radius: 10px;
+}
+
+.information p {
+    width: 150px;
+    font-size: 0.85em;
+    text-align: center;
 }
 
 .quote {
-    background-color: blueviolet;
+    background-image: url("/image/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg");
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(150, 150, 150);
+    background-blend-mode: multiply;
+}
+
+.quote p {
+    color: #FFF;
+    font-size: 2em;
+}
+
+.quote strong {
+    color: #FFF;
+    align-self: flex-start;
 }
 
 .sign-up {
     background-color: darkorange;
+    height: 300px;
 }
 
 footer {
