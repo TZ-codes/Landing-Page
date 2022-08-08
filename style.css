@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: green;
+}
+
+.headline {
+    background-color: aqua;
+}
+
+.information {
+    background-color: brown;
+}
+
+.quote {
+    background-color: blueviolet;
+}
+
+.sign-up {
+    background-color: darkorange;
+}
+
+footer {
+    background-color: yellow;
+}
